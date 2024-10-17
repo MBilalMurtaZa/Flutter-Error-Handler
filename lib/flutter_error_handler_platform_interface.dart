@@ -8,7 +8,8 @@ abstract class FlutterErrorHandlerPlatform extends PlatformInterface {
 
   static final Object _token = Object();
 
-  static FlutterErrorHandlerPlatform _instance = MethodChannelFlutterErrorHandler();
+  static FlutterErrorHandlerPlatform _instance =
+      MethodChannelFlutterErrorHandler();
 
   /// The default instance of [FlutterErrorHandlerPlatform] to use.
   ///
