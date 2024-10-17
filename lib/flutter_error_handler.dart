@@ -1,4 +1,4 @@
-library flutter_error_handler;
+library;
 import 'flutter_error_handler_platform_interface.dart';
 import 'dart:async';
 import 'package:flutter/foundation.dart';
@@ -35,6 +35,7 @@ class FlutterErrorHandler {
       if(showConsoleLogsInDebugMode) {
         if (kDebugMode) {
           print('Caught zoned error: ${error.toString()}');
+          print(stackTrace.toString());
         }
       }
       onErrorHandler(error, stackTrace);

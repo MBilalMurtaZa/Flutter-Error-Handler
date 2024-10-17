@@ -1,6 +1,6 @@
 name: flutter_error_handler
-description: "A global error handler package for Flutter applications. designed to simplify error tracking and improve app stability. By effortlessly capturing both framework-level and asynchronous errors, this package ensures that no error goes unnoticed, allowing you to implement custom logging and reporting strategies with minimal effort"
-version: 1.0.1
+description: "A global error handler package for Flutter applications. `runZonedGuarded`, `Async error handling`, 'Custom error handling', `Pre-app initialization` "
+version: 1.0.3
 homepage: https://github.com/MBilalMurtaZa/Flutter-Error-Handler.git
 
 environment:

@@ -24,13 +24,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text('Error Handler Example')),
+        appBar: AppBar(title: const Text('Error Handler Example')),
         body: Center(
           child: ElevatedButton(
             onPressed: () {
               throw Exception('This is a test error!');
             },
-            child: Text('Throw Error'),
+            child: const Text('Throw Error'),
           ),
         ),
       ),
